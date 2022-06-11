@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".InicioAsesorado">
+
+    <TextView
+        android:id="@+id/bienvenidoText"
+        android:layout_width="376dp"
+        android:layout_height="88dp"
+        android:text="BIENVENIDO"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/nameUserText"
+        android:layout_width="219dp"
+        android:layout_height="60dp"
+        android:text="NADA"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <Button
+        android:id="@+id/btnProfileAsesorado"
+        android:layout_width="142dp"
+        android:layout_height="48dp"
+        android:text="Mi Perfil"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <Button
+        android:id="@+id/btnPedirCurso"
+        android:layout_width="143dp"
+        android:layout_height="54dp"
+        android:text="Pedir Curso"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/btnMisCursos"
+        android:layout_width="143dp"
+        android:layout_height="54dp"
+        android:text="Mis Cursos"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+</androidx.constraintlayout.widget.ConstraintLayout>

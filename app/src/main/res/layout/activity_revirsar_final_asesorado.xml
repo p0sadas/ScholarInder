@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RevirsarFinalAsesorado">
+
+    <TextView
+        android:id="@+id/txtHorarioResumen"
+        android:layout_width="249dp"
+        android:layout_height="105dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <TextView
+        android:id="@+id/txtAsesorResumen"
+        android:layout_width="246dp"
+        android:layout_height="95dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <TextView
+        android:id="@+id/txtTituloResumen"
+        android:layout_width="297dp"
+        android:layout_height="83dp"
+        android:text="Resumen"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <TextView
+        android:id="@+id/txtCursoResumen"
+        android:layout_width="246dp"
+        android:layout_height="96dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <Button
+        android:id="@+id/btnResumenAsesorado"
+        android:layout_width="188dp"
+        android:layout_height="81dp"
+        android:text="Inscribirme!"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHorarioResumen"
+        app:layout_constraintVertical_bias="0.223" />
+</androidx.constraintlayout.widget.ConstraintLayout>

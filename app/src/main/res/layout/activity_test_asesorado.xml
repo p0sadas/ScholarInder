@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestAsesorado"
+    android:gravity="center"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       >
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="179dp"
+           android:layout_height="wrap_content"
+           android:text="TEST"
+           android:textAlignment="center"
+           android:textColor="#050505"
+           android:textSize="65sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.497"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.025" />
+
+       <TextView
+           android:id="@+id/textView4"
+           android:layout_width="wrap_content"
+           android:layout_height="69dp"
+           android:text="TIPO DE APRENDIZAJE"
+           android:textColor="#000000"
+           android:textSize="34sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.491"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.172" />
+
+       <TextView
+           android:id="@+id/textView6"
+           android:layout_width="293dp"
+           android:layout_height="52dp"
+           android:text="¿Qué tipo de examen realizas con mayor facilidad?"
+           android:textSize="20sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.254" />
+
+       <RadioGroup
+           android:id="@+id/rd1"
+           android:layout_width="249dp"
+           android:layout_height="wrap_content"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.393">
+
+           <RadioButton
+               android:id="@+id/rdAs1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Examen Oral" />
+
+           <RadioButton
+               android:id="@+id/rdAs2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Examen Escrito" />
+
+           <RadioButton
+               android:id="@+id/rdAs3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Examen de opcion multiple" />
+       </RadioGroup>
+
+       <TextView
+           android:id="@+id/textView7"
+           android:layout_width="281dp"
+           android:layout_height="71dp"
+           android:text="Cuando tienes que aprender algo de memoria…"
+           android:textSize="20sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.254" />
+
+       <RadioGroup
+           android:id="@+id/rd2"
+           android:layout_width="259dp"
+           android:layout_height="171dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.393">
+
+           <RadioButton
+               android:id="@+id/rdAs4"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Memorizo lo que veo y recuerdo la imagen (por ejemplo, la página del libro)" />
+
+           <RadioButton
+               android:id="@+id/rdAs5"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Memorizo mejor si repito lo estudiado rítmicamente y recuerdo paso a paso" />
+
+           <RadioButton
+               android:id="@+id/rdAs6"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Memorizo a base de pasear y mirar, y recuerdo una idea general mejor que los detalles" />
+       </RadioGroup>
+
+       <TextView
+           android:id="@+id/textView8"
+           android:layout_width="280dp"
+           android:layout_height="131dp"
+           android:text="Cuando estás en clase y el profesor explica algo que está escrito en la pizarra o en tu libro, te es más fácil seguir las explicaciones…"
+           android:textSize="20sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.254" />
+
+       <RadioGroup
+           android:id="@+id/rd3"
+           android:layout_width="243dp"
+           android:layout_height="155dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.393">
+
+           <RadioButton
+               android:id="@+id/rdAs7"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Escuchando al profesor." />
+
+           <RadioButton
+               android:id="@+id/rdAs8"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Me aburro y espero a que me den algo para hacer." />
+
+           <RadioButton
+               android:id="@+id/rdAs9"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Me aburro y espero a que me den algo para hacer." />
+       </RadioGroup>
+
+       <TextView
+           android:id="@+id/textView9"
+           android:layout_width="288dp"
+           android:layout_height="65dp"
+           android:text="Marca la frase con las que te identifiques más."
+           android:textSize="20sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.254" />
+
+       <RadioGroup
+           android:id="@+id/rd4"
+           android:layout_width="280dp"
+           android:layout_height="184dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.393">
+
+           <RadioButton
+               android:id="@+id/rdAs10"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Prefiero escuchar chistes que leer cómics." />
+
+           <RadioButton
+               android:id="@+id/rdAs11"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Mis cuadernos y libretas están ordenados y bien presentados, me molestan los tachones y las correcciones." />
+
+           <RadioButton
+               android:id="@+id/rdAS12"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Me gusta tocar las cosas y tiendo a acercarme mucho a la gente cuando hablo con alguien." />
+       </RadioGroup>
+
+       <TextView
+           android:id="@+id/textView10"
+           android:layout_width="288dp"
+           android:layout_height="63dp"
+           android:text="¿Cuál de las siguientes actividades disfrutas más? "
+           android:textSize="20sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.254" />
+
+       <RadioGroup
+           android:id="@+id/rd5"
+           android:layout_width="187dp"
+           android:layout_height="151dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.393">
+
+           <RadioButton
+               android:id="@+id/rdAs13"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Ver películas." />
+
+           <RadioButton
+               android:id="@+id/rdAs14"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Escuchar música." />
+
+           <RadioButton
+               android:id="@+id/rdAs15"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Bailar" />
+       </RadioGroup>
+
+       <TextView
+           android:id="@+id/textView11"
+           android:layout_width="279dp"
+           android:layout_height="74dp"
+           android:text="¿De qué manera te resulta más fácil aprender algo? "
+           android:textSize="20sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.254" />
+
+       <RadioGroup
+           android:id="@+id/rd6"
+           android:layout_width="253dp"
+           android:layout_height="160dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.393">
+
+           <RadioButton
+               android:id="@+id/rdAs17"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Repitiendo en voz alta." />
+
+           <RadioButton
+               android:id="@+id/rdAs18"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Escribiéndolo varias veces." />
+
+           <RadioButton
+               android:id="@+id/rdAs19"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:minHeight="48dp"
+               android:text="Relacionándolo con algo, a poder ser divertido." />
+       </RadioGroup>
+
+       <Button
+           android:id="@+id/btnContinuar2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Button" />
+   </LinearLayout>
+
+</ScrollView>

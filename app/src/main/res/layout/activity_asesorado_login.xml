@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AsesoradoLogin"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="16dp">
+
+    <EditText
+        android:id="@+id/asesoradoPassText"
+        android:layout_width="231dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Contra"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#151313"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="261dp"
+        android:layout_height="70dp"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textColor="#1B1616"
+        android:textColorHint="#090909"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <EditText
+        android:id="@+id/asesoradoBoletaText"
+        android:layout_width="231dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Boleta"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#100F0F"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <Button
+        android:id="@+id/btnLoginAsesorado"
+        android:layout_width="223dp"
+        android:layout_height="81dp"
+        android:text="Login In"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712" />
+
+    <Button
+        android:id="@+id/btnRegistroAsesorado"
+        android:layout_width="296dp"
+        android:layout_height="76dp"
+        android:text="Registrarse"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

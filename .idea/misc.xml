@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_asesor_login.xml" value="0.1661600810536981" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_asesorado_login.xml" value="0.286231884057971" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_inicio_asesor.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_inicio_asesorado.xml" value="0.31567028985507245" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_main.xml" value="0.286231884057971" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_mis_asesorias.xml" value="0.3401268115942029" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_nuevo_curso_asesor.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_nuevo_curso_asesorado.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_nuevo_curso_asesorado_sig.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_profile_asesor.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_profile_asesorado.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_registro_asesorado.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_registro_test.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_resgitro_asesor.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_revirsar_final_asesorado.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_test_asesor.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/activity_test_asesorado.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/content_scrolling.xml" value="0.276268115942029" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/fragment_blank.xml" value="0.286231884057971" />
+        <entry key="..\:/Users/posad/Desktop/synuapp2/app/src/main/res/layout/item.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
